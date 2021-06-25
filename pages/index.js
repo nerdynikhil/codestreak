@@ -8,7 +8,7 @@ import HeatMap from "react-heatmap-grid";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Datetime from 'react-datetime';
-
+import Date from 'react-datetime';
 
 
 const xLabels = new Array(24).fill(0).map((_, i) => `${i}`);
@@ -48,6 +48,7 @@ export default function Home() {
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               Setup once, and you're ready to go!
             </Typography>
+
           </Container>
         </div>
         <div>

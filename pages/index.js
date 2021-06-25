@@ -1,8 +1,14 @@
 import Head from 'next/head'
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from "@material-ui/core";
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import TodayIcon from '@material-ui/icons/Today';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import HeatMap from "react-heatmap-grid";
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import Datetime from 'react-datetime';
+
 
 
 const xLabels = new Array(24).fill(0).map((_, i) => `${i}`);
@@ -44,7 +50,96 @@ export default function Home() {
             </Typography>
           </Container>
         </div>
-        <div id="heatmap" style={{ fontSize: "13px" }}>
+        <div>
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+
+              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+
+              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+
+              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              icon={<TodayIcon />}
+            >
+              <Date />
+              <p>
+                Submissions: Github: 5, Codepen:8, Codeforces: 1, SPOJ: 2
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+              icon={<ExpandMoreIcon />}
+            />
+          </VerticalTimeline>
+        </div>
+        <Typography variant="h2">Heatmap</Typography>
+        <div style={{ fontSize: "13px" }}>
           <HeatMap
             xLabels={xLabels}
             yLabels={yLabels}
@@ -63,7 +158,10 @@ export default function Home() {
             cellRender={value => value && <div>{value}</div>}
           />
         </div>
+
+
       </main>
+
     </div>
   )
 }

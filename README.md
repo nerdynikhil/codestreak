@@ -1,3 +1,12 @@
+## CodeStreak - Better than her Snapstreaks
+
+Consistency is important. Maintain your daily momentum throughout all the platforms like Github, Codepen, Codeforces, Codechef, Hackerearth, SPOJ, Hackerrank, Leetcode, InterviewBit and so on together with Codestreak. Keep track of your activities everyday with the heatmap[WIP].
+
+![Screenshot 2021-06-26 at 11 04 00 AM](https://user-images.githubusercontent.com/36399086/123503282-aa313e80-d66f-11eb-9d60-42a5cc04714a.png)
+
+![Screenshot 2021-06-26 at 11 04 41 AM](https://user-images.githubusercontent.com/36399086/123503290-ba491e00-d66f-11eb-9ce4-8e598cff63bc.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

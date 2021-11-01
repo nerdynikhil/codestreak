@@ -16,6 +16,10 @@ Consistency is important. Maintain your daily momentum throughout all the platfo
 ![Screenshot 2021-06-26 at 11 04 41 AM](https://user-images.githubusercontent.com/36399086/123503290-ba491e00-d66f-11eb-9ce4-8e598cff63bc.png)
 
 
+## Documentation 📃
+Please read [Contribution Guidelines](https://github.com/nerdynikhil/codestreak/blob/main/CONTRIBUTING.md) and [Code of Conduct](/CODE_OF_CONDUCT.md) before contributing
+Do follow the [commit conventions](https://github.com/nerdynikhil/codestreak/blob/main/CONTRIBUTING.md#commit-conventions) while making any commits.
+
 ## Program(s) we are associated with
 
 <a href="https://swoc.tech/index.html" target="_blank"><img src="https://raw.githubusercontent.com/HITK-TECH-Community/Community-Website/main/assets/SWoC.png" width="180px" height="180px"></a>

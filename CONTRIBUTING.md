@@ -34,14 +34,21 @@ Click on the <a href="https://github.com/nerdynikhil/codestreak.git"><img src="h
 ```bash
 git clone https://github.com/<your-github-username>/codestreak.git
 ```
+**3.**  Set upstream command:
+```bash
+git remote add upstream https://github.com/nerdynikhil/codestreak.git
+```
 
-**3.** Navigate to the project directory.
+**4.** Navigate to the project directory.
 
 ```bash
 cd codestreak
 ```
 
-**4.** Make changes in source code.
+**5.** Create a new branch:
+```bash
+git checkout -b YourBranchName
+```
 
 **5.** Stage your changes and commit
 
@@ -55,7 +62,7 @@ git commit -m "<your_commit_message>"
 **7.** Push your local commits to the remote repo.
 
 ```bash
-git push
+git push origin YourBranchName
 ```
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !

@@ -9,6 +9,10 @@
 [![License](https://img.shields.io/github/license/nerdynikhil/codestreak)](https://github.com/nerdynikhil/codestreak)
 ![](https://img.shields.io/github/repo-size/nerdynikhil/codestreak.svg?label=Repo%20size&style=flat-square)&nbsp;
 
+Go through this video to learn about the project, how to contribute and partcipate in KWoC in a nutshell.
+
+<a href="https://www.youtube.com/watch?v=uR7NjKJ2G5k"><img alt="Youtube" title="Youtube" src="https://img.shields.io/badge/-Watch-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+
 Consistency is important. Maintain your daily momentum throughout all the platforms like Github, Codepen, Codeforces, Codechef, Hackerearth, SPOJ, Hackerrank, Leetcode, InterviewBit and so on together with Codestreak. Keep track of your activities everyday with the heatmap[WIP].
 
 ![Screenshot 2021-06-26 at 11 04 00 AM](https://user-images.githubusercontent.com/36399086/123503282-aa313e80-d66f-11eb-9d60-42a5cc04714a.png)
@@ -22,7 +26,9 @@ Do follow the [commit conventions](https://github.com/nerdynikhil/codestreak/blo
 
 ## Program(s) we are associated with
 
-<a href="https://swoc.tech/index.html" target="_blank"><img src="https://raw.githubusercontent.com/HITK-TECH-Community/Community-Website/main/assets/SWoC.png" width="180px" height="180px"></a>
+<a href="https://kwoc.kossiitkgp.org/" target="_blank"><img src="https://kossiitkgp.org/assets/images/kosslogo.png" width="180px" height="180px"></a>
+
+<a href="https://swoc.tech/index.html" target="_blank"><img src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/5f8cb6cdd32ab_20201019_030923_0000.png" width="180px" height="180px"></a>
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

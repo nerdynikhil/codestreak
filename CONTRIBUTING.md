@@ -34,15 +34,16 @@ Click on the <a href="https://github.com/nerdynikhil/codestreak.git"><img src="h
 ```bash
 git clone https://github.com/<your-github-username>/codestreak.git
 ```
-**3.**  Set upstream command:
-```bash
-git remote add upstream https://github.com/nerdynikhil/codestreak.git
-```
 
-**4.** Navigate to the project directory.
+**3.** Navigate to the project directory.
 
 ```bash
 cd codestreak
+```
+
+**4.**  Set upstream command:
+```bash
+git remote add upstream https://github.com/nerdynikhil/codestreak.git
 ```
 
 **5.** Create a new branch:
